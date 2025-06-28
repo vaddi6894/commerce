@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-background text-gray-800 antialiased transition-colors duration-300 dark:bg-gray-900 dark:text-white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}

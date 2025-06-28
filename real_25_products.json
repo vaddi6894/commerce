@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Apple iPhone 14",
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-max-deeppurple-select?wid=940&hei=1112&fmt=png-alpha&.v=1660747819944",
+    "description": "The Apple iPhone 14 is a popular item in the Electronics category.",
+    "price": 269.67,
+    "stock": 89,
+    "category": "Electronics",
+    "ratings": 4.1
+  },
+  {
+    "name": "Samsung Galaxy Buds",
+    "image": "https://images.samsung.com/is/image/samsung/assets/in/audio/galaxy-buds2/buy/Buds2_KV_MO.jpg",
+    "description": "The Samsung Galaxy Buds is a popular item in the Electronics category.",
+    "price": 714.31,
+    "stock": 51,
+    "category": "Electronics",
+    "ratings": 3.1
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "image": "https://m.media-amazon.com/images/I/51R5KDq7EoL._AC_SL1500_.jpg",
+    "description": "The Sony WH-1000XM5 Headphones is a popular item in the Electronics category.",
+    "price": 366.17,
+    "stock": 143,
+    "category": "Electronics",
+    "ratings": 3.7
+  },
+  {
+    "name": "Nike Air Max Shoes",
+    "image": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/b51f53cb-35cf-44e5-a0c7-f7e1aa9d92fe/air-max-day.jpg",
+    "description": "The Nike Air Max Shoes is a popular item in the Clothing category.",
+    "price": 686.18,
+    "stock": 91,
+    "category": "Clothing",
+    "ratings": 3.2
+  },
+  {
+    "name": "Levi's Men's Jeans",
+    "image": "https://lsco.scene7.com/is/image/lsco/005010114-front-pdp",
+    "description": "The Levi's Men's Jeans is a popular item in the Clothing category.",
+    "price": 166.56,
+    "stock": 191,
+    "category": "Clothing",
+    "ratings": 4.6
+  },
+  {
+    "name": "Adidas Running Shoes",
+    "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5a626f5b1985487eb405ae6b0140f3ae_9366/Duramo_SL_Shoes_Black_EF0892_01_standard.jpg",
+    "description": "The Adidas Running Shoes is a popular item in the Clothing category.",
+    "price": 777.65,
+    "stock": 179,
+    "category": "Clothing",
+    "ratings": 3.3
+  },
+  {
+    "name": "Philips Air Fryer",
+    "image": "https://images.philips.com/is/image/PhilipsConsumer/HD9650_96-IMS-en_IN?wid=420&hei=360&$jpglarge$",
+    "description": "The Philips Air Fryer is a popular item in the Home & Kitchen category.",
+    "price": 815.33,
+    "stock": 24,
+    "category": "Home & Kitchen",
+    "ratings": 3.0
+  },
+  {
+    "name": "Prestige Pressure Cooker",
+    "image": "https://m.media-amazon.com/images/I/71ewtD1UUBL._SL1500_.jpg",
+    "description": "The Prestige Pressure Cooker is a popular item in the Home & Kitchen category.",
+    "price": 705.86,
+    "stock": 192,
+    "category": "Home & Kitchen",
+    "ratings": 4.0
+  },
+  {
+    "name": "Milton Thermosteel Flask",
+    "image": "https://m.media-amazon.com/images/I/61gYy8pmtcL._SL1500_.jpg",
+    "description": "The Milton Thermosteel Flask is a popular item in the Home & Kitchen category.",
+    "price": 241.86,
+    "stock": 116,
+    "category": "Home & Kitchen",
+    "ratings": 4.3
+  },
+  {
+    "name": "Harry Potter Box Set",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg",
+    "description": "The Harry Potter Box Set is a popular item in the Books category.",
+    "price": 182.03,
+    "stock": 145,
+    "category": "Books",
+    "ratings": 4.5
+  },
+  {
+    "name": "Atomic Habits by James Clear",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
+    "description": "The Atomic Habits by James Clear is a popular item in the Books category.",
+    "price": 270.87,
+    "stock": 55,
+    "category": "Books",
+    "ratings": 3.1
+  },
+  {
+    "name": "Ikigai: The Japanese Secret",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71tbalAHYCL.jpg",
+    "description": "The Ikigai: The Japanese Secret is a popular item in the Books category.",
+    "price": 239.74,
+    "stock": 190,
+    "category": "Books",
+    "ratings": 5.0
+  },
+  {
+    "name": "Barbie Dreamhouse",
+    "image": "https://m.media-amazon.com/images/I/81vpsIs58WL._AC_SL1500_.jpg",
+    "description": "The Barbie Dreamhouse is a popular item in the Toys category.",
+    "price": 597.04,
+    "stock": 37,
+    "category": "Toys",
+    "ratings": 3.9
+  },
+  {
+    "name": "LEGO Classic Bricks Set",
+    "image": "https://m.media-amazon.com/images/I/81NI0UFZ3OL._SL1500_.jpg",
+    "description": "The LEGO Classic Bricks Set is a popular item in the Toys category.",
+    "price": 241.02,
+    "stock": 73,
+    "category": "Toys",
+    "ratings": 3.5
+  },
+  {
+    "name": "Hot Wheels Track Set",
+    "image": "https://m.media-amazon.com/images/I/81eUvdUjveL._SL1500_.jpg",
+    "description": "The Hot Wheels Track Set is a popular item in the Toys category.",
+    "price": 253.32,
+    "stock": 32,
+    "category": "Toys",
+    "ratings": 4.4
+  },
+  {
+    "name": "Nivea Face Wash",
+    "image": "https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/1083/3007/NIVEA-Face-Wash-All-in-1-100ml__59159.1619175886.jpg",
+    "description": "The Nivea Face Wash is a popular item in the Beauty category.",
+    "price": 135.0,
+    "stock": 86,
+    "category": "Beauty",
+    "ratings": 4.0
+  },
+  {
+    "name": "L'Oreal Paris Shampoo",
+    "image": "https://m.media-amazon.com/images/I/61OQvTDz3-L._SL1500_.jpg",
+    "description": "The L'Oreal Paris Shampoo is a popular item in the Beauty category.",
+    "price": 391.95,
+    "stock": 167,
+    "category": "Beauty",
+    "ratings": 3.4
+  },
+  {
+    "name": "Maybelline Fit Me Foundation",
+    "image": "https://m.media-amazon.com/images/I/71EVOmxqvjL._SL1500_.jpg",
+    "description": "The Maybelline Fit Me Foundation is a popular item in the Beauty category.",
+    "price": 342.15,
+    "stock": 170,
+    "category": "Beauty",
+    "ratings": 3.6
+  },
+  {
+    "name": "Adidas Football",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/895f5e3c4a464d7dbb2eadd600d61bd5_9366/Al_Rihla_Pro_Ball_White_H57783_01_standard.jpg",
+    "description": "The Adidas Football is a popular item in the Sports category.",
+    "price": 865.5,
+    "stock": 13,
+    "category": "Sports",
+    "ratings": 3.7
+  },
+  {
+    "name": "Yonex Badminton Racket",
+    "image": "https://m.media-amazon.com/images/I/61uLKWp6n+L._SL1500_.jpg",
+    "description": "The Yonex Badminton Racket is a popular item in the Sports category.",
+    "price": 429.68,
+    "stock": 17,
+    "category": "Sports",
+    "ratings": 3.3
+  },
+  {
+    "name": "Puma Gym Bag",
+    "image": "https://m.media-amazon.com/images/I/71l53xE5rFL._SL1500_.jpg",
+    "description": "The Puma Gym Bag is a popular item in the Sports category.",
+    "price": 441.93,
+    "stock": 159,
+    "category": "Sports",
+    "ratings": 4.4
+  },
+  {
+    "name": "Castrol Engine Oil",
+    "image": "https://m.media-amazon.com/images/I/81GJbqhKg8L._AC_SL1500_.jpg",
+    "description": "The Castrol Engine Oil is a popular item in the Automotive category.",
+    "price": 849.55,
+    "stock": 89,
+    "category": "Automotive",
+    "ratings": 4.6
+  },
+  {
+    "name": "Michelin Car Tyres",
+    "image": "https://m.media-amazon.com/images/I/7115-FyXZaL._SL1500_.jpg",
+    "description": "The Michelin Car Tyres is a popular item in the Automotive category.",
+    "price": 322.41,
+    "stock": 153,
+    "category": "Automotive",
+    "ratings": 3.6
+  },
+  {
+    "name": "Bosch Car Wiper Blades",
+    "image": "https://m.media-amazon.com/images/I/71wRIb8FrbL._SL1500_.jpg",
+    "description": "The Bosch Car Wiper Blades is a popular item in the Automotive category.",
+    "price": 778.88,
+    "stock": 148,
+    "category": "Automotive",
+    "ratings": 3.9
+  },
+  {
+    "name": "Amul Butter",
+    "image": "https://m.media-amazon.com/images/I/51yRSkzbUkL.jpg",
+    "description": "The Amul Butter is a popular item in the Groceries category.",
+    "price": 833.88,
+    "stock": 61,
+    "category": "Groceries",
+    "ratings": 3.2
+  },
+  {
+    "name": "Tata Tea Gold",
+    "image": "https://m.media-amazon.com/images/I/71dNTi3U2JL._SL1500_.jpg",
+    "description": "The Tata Tea Gold is a popular item in the Groceries category.",
+    "price": 815.42,
+    "stock": 120,
+    "category": "Groceries",
+    "ratings": 5.0
+  }
+]
