@@ -46,14 +46,14 @@ const Header = () => {
             logoAnim ? "scale-110 rotate-2" : "hover:scale-105 hover:-rotate-2"
           }`}
           style={{ letterSpacing: "0.05em", cursor: "pointer" }}
-          aria-label="ShopSwift Home"
+          aria-label="Shoppie Home"
           onMouseDown={() => setLogoAnim(true)}
           onMouseUp={() => setLogoAnim(false)}
           onMouseLeave={() => setLogoAnim(false)}
         >
           Shop
           <span className="text-orange-500 transition-colors duration-300 hover:text-primary">
-            Swift
+            pie
           </span>
         </Link>
         <div className="hidden md:flex items-center gap-6">

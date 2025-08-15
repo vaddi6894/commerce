@@ -68,7 +68,7 @@ const CheckoutPage = () => {
   const handlePromo = (e) => {
     e.preventDefault();
     setPromoError("");
-    if (promo.trim().toLowerCase() === "swift10") {
+    if (promo.trim().toLowerCase() === "shoppie10") {
       setPromoApplied(true);
     } else {
       setPromoError("Invalid code");

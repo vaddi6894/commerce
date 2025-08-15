@@ -44,7 +44,7 @@ const LoginPage = () => {
         >
           Shop
           <span className="text-orange-500 transition-colors duration-300 hover:text-primary">
-            Swift
+            pie
           </span>
         </span>
         <span className="text-xs text-gray-400 tracking-widest mt-1">

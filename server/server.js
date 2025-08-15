@@ -4,6 +4,8 @@ const express = require("express");
 const connectDB = require("./config/db");
 const cors = require("cors");
 const path = require("path");
+const fs = require("fs");
+const Product = require("./models/Product");
 const authRoutes = require("./routes/authRoutes");
 const productRoutes = require("./routes/productRoutes");
 const orderRoutes = require("./routes/orderRoutes");
@@ -24,7 +26,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.CLIENT_URL || "http://localhost:3000",
     credentials: true,
   })
 );
@@ -45,6 +47,26 @@ app.use("/api/users", userRoutes);
 
 // Error Handler
 app.use(errorHandler);
+
+// Seed products from real_25_products.json if collection is empty
+(async () => {
+  try {
+    const count = await Product.countDocuments();
+    if (count === 0) {
+      const filePath = path.resolve(__dirname, "./real_25_products.json");
+      const json = fs.readFileSync(filePath, "utf-8");
+      const data = JSON.parse(json);
+      if (Array.isArray(data) && data.length > 0) {
+        await Product.insertMany(data);
+        console.log(
+          `Seeded ${data.length} products from real_25_products.json`
+        );
+      }
+    }
+  } catch (e) {
+    console.error("Product seeding failed:", e.message);
+  }
+})();
 
 // Serve React build
 if (process.env.NODE_ENV === "production") {

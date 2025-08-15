@@ -17,7 +17,7 @@ exports.createPaymentIntent = async (req, res, next) => {
     const paymentIntent = await stripe.paymentIntents.create({
       amount: Math.round(amount * 100), // in cents
       currency,
-      description: `ShopSwift order payment${
+      description: `Shoppie order payment${
         country === "IN" ? " (India export)" : ""
       }`,
       confirm: false,
@@ -45,7 +45,7 @@ exports.stripeWebhook = async (req, res, next) => {
   let event;
   try {
     event = stripe.webhooks.constructEvent(
-      req.rawBody,
+      req.body,
       sig,
       process.env.STRIPE_WEBHOOK_SECRET
     );
@@ -116,8 +116,12 @@ exports.createCheckoutSession = async (req, res, next) => {
       line_items: items,
       mode: "payment",
       customer_email: userEmail,
-      success_url: `http://localhost:3000/order-success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: "http://localhost:3000/checkout",
+      success_url: `${
+        process.env.CLIENT_URL || "http://localhost:3000"
+      }/order-success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${
+        process.env.CLIENT_URL || "http://localhost:3000"
+      }/checkout`,
       shipping_address_collection: { allowed_countries: ["IN"] },
       shipping_options: [
         {
