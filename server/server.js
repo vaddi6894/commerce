@@ -26,7 +26,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: "https://commerce-66i52ij2j-manikarnik-vaddis-projects.vercel.app", 
     credentials: true,
   })
 );
