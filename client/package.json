@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@heroicons/react": "^2.0.18",
     "@stripe/react-stripe-js": "^3.7.0",
     "@stripe/stripe-js": "^7.3.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
-    "axios": "^1.6.0",
     "cra-template-pwa": "2.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

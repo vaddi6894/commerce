@@ -26,7 +26,10 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://commerce-66i52ij2j-manikarnik-vaddis-projects.vercel.app", 
+    origin:
+      process.env.NODE_ENV === "production"
+        ? "https://commerce-66i52ij2j-manikarnik-vaddis-projects.vercel.app"
+        : "http://localhost:3000",
     credentials: true,
   })
 );
