@@ -28,7 +28,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? "https://commerce-66i52ij2j-manikarnik-vaddis-projects.vercel.app"
+        ? "https://your-frontend-url.onrender.com"
         : "http://localhost:3000",
     credentials: true,
   })
