@@ -29,7 +29,7 @@ app.use(
     origin:
       process.env.NODE_ENV === "production"
         ? "https://your-frontend-url.onrender.com"
-        : "http://localhost:3000",
+        : process.env.CLIENT_URL || "http://localhost:3000",
     credentials: true,
   })
 );
